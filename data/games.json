@@ -1,0 +1,14 @@
+[
+  {
+    "id": "demo-game",
+    "name": "Your First Game",
+    "description": "Replace this demo entry with your own game from the dashboard.",
+    "icon": "assets/icon-placeholder.svg",
+    "links": [
+      {"label": "Play Store", "url": "https://play.google.com/", "style": "accent"},
+      {"label": "Privacy Policy", "url": "#", "style": "outline"},
+      {"label": "Web Playable", "url": "#", "style": ""},
+      {"label": "Steam", "url": "#", "style": ""}
+    ]
+  }
+]

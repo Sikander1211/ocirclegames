@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="O Circle Games — explore our games.">
+  <title>O Circle Games</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="O Circle Games home">
+      <img id="company-logo" class="company-logo" src="assets/icon-placeholder.svg" alt="O Circle Games logo">
+      <span>O Circle Games</span>
+    </a>
+    <nav>
+      <a href="#games">Games</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">O CIRCLE GAMES</p>
+      <h1>Games made to<br><span>play your way.</span></h1>
+      <p class="hero-copy">Discover our collection of mobile, PC and web games — all in one place.</p>
+      <a class="primary-button" href="#games">Explore Games <span>↓</span></a>
+    </section>
+
+    <section id="games" class="games-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OUR GAMES</p>
+          <h2>Latest releases</h2>
+        </div>
+        <p id="game-count" class="game-count"></p>
+      </div>
+      <div id="games-grid" class="games-grid"></div>
+      <div id="empty-state" class="empty-state hidden">
+        <div class="empty-icon">◎</div>
+        <h3>No games added yet</h3>
+        <p>Games will appear here when they are published.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div>
+        <p class="eyebrow">ABOUT O CIRCLE</p>
+        <h2>Small studio.<br><span>Big ideas.</span></h2>
+      </div>
+      <div>
+        <p>O Circle Games creates accessible, polished games for players on mobile, PC and the web. Check back for new releases and updates.</p>
+        <p class="contact-line">Contact: <a href="mailto:theogamecircle@gmail.com">theogamecircle@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> O Circle Games</span>
+    <a href="mailto:theogamecircle@gmail.com">theogamecircle@gmail.com</a>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
