@@ -8,12 +8,115 @@
       {
         "label": "Play Store",
         "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.Rummy.Show.Card",
-        "style": ""
+        "style": "accent"
       },
       {
         "label": "Privacy Policy",
         "url": "https://sites.google.com/view/rummyshowprivacy",
         "style": "outline"
+      }
+    ]
+  },
+  {
+    "id": "game_mtyknslegvirn",
+    "name": "Arrows Tap Puzzle Escape",
+    "description": "Tap, think and escape! Solve addictive arrow puzzles.",
+    "icon": "images/ArrowIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.Arrows.Tap.Puzzle",
+        "style": "accent"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://sites.google.com/view/arrowescprivacy",
+        "style": "outline"
+      }
+    ]
+  },
+  {
+    "id": "game_mtykrseqx4u10",
+    "name": "Elite Strike Ops: FPS Shooting",
+    "description": "Welcome to Elite Strike Ops: FPS Shooting, the ultimate offline first-person shooter experience designed for players who love action-packed gun battles, tactical combat missions, and realistic shooting gameplay.",
+    "icon": "images/EliteStrikeIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.ElitestrikeFPSShooter",
+        "style": "accent"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://sites.google.com/view/elitestrikeopsprivacy",
+        "style": "outline"
+      }
+    ]
+  },
+  {
+    "id": "game_mtyku12diam3k",
+    "name": "Find It Blitz: PvP Hidden Seek",
+    "description": "Find It Blitz is an exciting real-time PvP hidden object game where speed, focus, and sharp eyes decide the winner. Challenge players from around the world in fast-paced live seek and find battles, discover hidden objects, and prove that you're the fastest seeker.",
+    "icon": "images/FindItIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.FindItBlitz",
+        "style": "accent"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://sites.google.com/view/finditblitzprivacy",
+        "style": "outline"
+      }
+    ]
+  },
+  {
+    "id": "game_mtykwly8g8m6a",
+    "name": "Paper Football 3D: Soccer Duel",
+    "description": "Paper Football 3D brings the classic pen-and-paper football game to life with immersive 3D visuals and smooth, strategic gameplay. Inspired by the timeless game played in school notebooks, this modern version keeps the original fun while adding depth, polish, and accessibility for mobile players of all ages.",
+    "icon": "images/PaperFootballIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.ocirclegames.paperfootball3d",
+        "style": "accent"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://sites.google.com/view/paperfootball3d",
+        "style": "outline"
+      }
+    ]
+  },
+  {
+    "id": "game_mtykyopdoh857",
+    "name": "Snakes And Ladders Quick",
+    "description": "Snakes & Ladders – Play Online, Roll Dice & Win Big!",
+    "icon": "images/SnakesIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.Snakes.Ladders.Quick",
+        "style": "accent"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://sites.google.com/view/snakesandladdersprivacy",
+        "style": "outline"
+      }
+    ]
+  },
+  {
+    "id": "game_mtyl3wfuz3mfp",
+    "name": "Mosquito Plaf!",
+    "description": "Mosquito Plaf Card Game",
+    "icon": "images/MosquitoIcon.png",
+    "links": [
+      {
+        "label": "WEBGL",
+        "url": "https://o-games-circle.itch.io/mosquito-plaf",
+        "style": ""
       }
     ]
   }
