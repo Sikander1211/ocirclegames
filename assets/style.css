@@ -13,7 +13,24 @@ button,input,select{font:inherit}
 .brand-mark{width:34px;height:34px;border:2px solid var(--accent2);border-radius:50%;display:grid;place-items:center;font-weight:900;color:var(--accent2)}
 nav{display:flex;gap:26px;align-items:center;color:var(--muted);font-size:14px}
 nav a:hover{color:#fff}.nav-button{border:1px solid var(--line);padding:9px 14px;border-radius:10px;color:#fff}
-.hero{max-width:var(--max);margin:auto;padding:130px 24px 145px;position:relative;overflow:hidden}
+.hero{
+  max-width:var(--max);
+  margin:auto;
+  padding:130px 24px 145px;
+  position:relative;
+  overflow:hidden;
+
+  background-image:
+    linear-gradient(
+      rgba(7,8,12,0.45),
+      rgba(7,8,12,0.80)
+    ),
+    url("SplashLandscape.png");
+
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
 .hero-glow{position:absolute;width:420px;height:420px;background:var(--accent);opacity:.15;filter:blur(110px);right:4%;top:30px;pointer-events:none}
 .eyebrow{color:var(--accent2);font-size:12px;font-weight:800;letter-spacing:.18em;margin:0 0 12px}
 .hero h1{font-size:clamp(48px,8vw,88px);line-height:.98;letter-spacing:-.055em;margin:0;max-width:850px}
