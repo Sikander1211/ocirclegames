@@ -119,5 +119,18 @@
         "style": ""
       }
     ]
+  },
+  {
+    "id": "game_mucxtvjz61qq3",
+    "name": "Apex Overdrive",
+    "description": "Drive, drift, and race in a vast open world city. Real car physics and tuning!",
+    "icon": "images/ApexOverdriveIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.Apex.Car.Racing",
+        "style": "accent"
+      }
+    ]
   }
 ]
