@@ -157,3 +157,4 @@ appnexus.com, 17779, RESELLER
 appnexus.com, 17973, RESELLER, f5ab79cb980f11d1
 bigo.sg, adidz3dyfp, RESELLER
 indexexchange.com, 214183, RESELLER, 50b1c356f2c5c8fc
+pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
