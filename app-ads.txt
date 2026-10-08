@@ -1,4 +1,3 @@
-google.com, pub-1519542982907250, DIRECT, f08c47fec0942fa0
 odeeo.io, 118848844, RESELLER, 36cfd73091d5c3fc
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
 triplelift.com, 12158, RESELLER, 6c33edb13117fd86
@@ -159,3 +158,4 @@ appnexus.com, 17973, RESELLER, f5ab79cb980f11d1
 bigo.sg, adidz3dyfp, RESELLER
 indexexchange.com, 214183, RESELLER, 50b1c356f2c5c8fc
 pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
+google.com, pub-1519542982907250, DIRECT, f08c47fec0942fa0
