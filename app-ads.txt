@@ -1,3 +1,4 @@
+google.com, pub-1519542982907250, DIRECT, f08c47fec0942fa0
 odeeo.io, 118848844, RESELLER, 36cfd73091d5c3fc
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
 triplelift.com, 12158, RESELLER, 6c33edb13117fd86
