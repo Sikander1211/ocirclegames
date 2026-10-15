@@ -159,3 +159,4 @@ bigo.sg, adidz3dyfp, RESELLER
 indexexchange.com, 214183, RESELLER, 50b1c356f2c5c8fc
 pubmatic.com, 165874, RESELLER, 5d62403b186f2ace
 google.com, pub-1519542982907250, DIRECT, f08c47fec0942fa0
+smaato.com, 1100059345, RESELLER, 07bcf65f187117b4
