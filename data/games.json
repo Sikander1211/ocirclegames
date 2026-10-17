@@ -132,5 +132,18 @@
         "style": "accent"
       }
     ]
+  },
+  {
+    "id": "game_mvby0ff7ci7gz",
+    "name": "Chess - Offline & Online Clash",
+    "description": "Challenge your mind in Chess – Offline & Online Clash! Play classic chess offline against AI or go online to challenge real players. Sharpen your strategy, master your moves, and prove your skills in exciting chess battles anytime, anywhere.",
+    "icon": "images/ChessIcon.png",
+    "links": [
+      {
+        "label": "Play Store",
+        "url": "https://play.google.com/store/apps/details?id=com.OCircleGames.chess",
+        "style": "accent"
+      }
+    ]
   }
 ]
