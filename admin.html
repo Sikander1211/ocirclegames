@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>O Circle Games — Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="admin-body">
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">O</span>
+      <span>O Circle Games</span>
+    </a>
+    <nav><a href="index.html">View Website</a></nav>
+  </header>
+
+  <main class="admin-main">
+    <div class="admin-top">
+      <div>
+        <p class="eyebrow">CONTENT DASHBOARD</p>
+        <h1>Manage games</h1>
+        <p>Add games, icons and as many platform/link buttons as you need.</p>
+      </div>
+      <div class="admin-actions">
+        <button id="reset-btn" class="danger-button" type="button">Reset</button>
+      </div>
+    </div>
+
+    <div class="notice">
+      <strong>Local dashboard:</strong> run <code>npm start</code>. The dashboard reads and saves the JSON file directly.
+    </div>
+
+    <section class="editor-card">
+      <div class="editor-header">
+        <h2 id="form-title">Add a game</h2>
+        <button id="cancel-edit" class="text-button hidden" type="button">Cancel edit</button>
+      </div>
+
+      <section class="company-settings">
+        <div class="links-title"><div><h3>Games JSON file</h3><p>Path relative to this project. Default: <code>data/games.json</code>.</p></div></div>
+        <div class="logo-setting-fields"><input id="games-json-path" value="data/games.json" placeholder="data/games.json"><div class="logo-setting-actions"><button id="load-json" class="secondary-button" type="button">Load JSON</button><button id="save-json-now" class="primary-button" type="button">Save JSON</button></div></div>
+      </section>
+
+      <section class="company-settings"><div class="links-title"><div><h3>Company logo</h3><p>Set the logo displayed in the website header. Use a local image path such as <code>images/logo.png</code>.</p></div></div><div class="logo-setting-row"><img id="logo-preview" src="assets/icon-placeholder.svg" alt="Company logo preview"><div class="logo-setting-fields"><input id="company-logo-input" placeholder="images/company-logo.png"><div class="logo-setting-actions"><button id="save-logo" class="primary-button" type="button">Save Logo</button><button id="remove-logo" class="danger-button" type="button">Use Default</button></div></div></div></section>
+
+<form id="game-form">
+        <input type="hidden" id="game-id">
+        <div class="form-grid">
+          <label>Game name<input id="game-name" required placeholder="e.g. Rummy Royale"></label>
+          <label>Short description<input id="game-description" placeholder="A quick description of the game"></label>
+          <label class="full">Game icon URL
+            <input id="game-icon" placeholder="images/my-game.png">
+            <small>For GitHub Pages, put images in an <code>images/</code> folder and use a path such as <code>images/game.png</code>.</small>
+          </label>
+        </div>
+
+        <div class="links-builder">
+          <div class="links-title">
+            <div><h3>Game links</h3><p>Add Play Store, App Store, Steam, Web Playable, Privacy Policy, or any custom button.</p></div>
+            <button id="add-link" class="secondary-button" type="button">+ Add button</button>
+          </div>
+          <div id="links-list"></div>
+        </div>
+
+        <button class="primary-button submit-button" type="submit">Save Game</button>
+      </form>
+    </section>
+
+    <section class="saved-section">
+      <div class="section-heading"><div><p class="eyebrow">LIBRARY</p><h2>Saved games</h2></div></div>
+      <div id="saved-games"></div>
+    </section>
+  </main>
+
+  <script src="assets/admin.js"></script>
+</body>
+</html>
